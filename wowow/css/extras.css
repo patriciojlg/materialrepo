@@ -1,4 +1,9 @@
- .card-price{
+.mid-brightness{
+webkit-filter: brightness(50%);
+    filter: brightness(50%);
+}
+
+.card-price{
       border-bottom: solid 1px #e8e8e8;
     box-shadow: none;
     border-top: solid 1px #e8e8e8;
@@ -23,7 +28,10 @@ padding: 15px;
 
 }
 .description{
-    margin-bottom: 30px;
+	margin-left: 170px;
+	margin-right: 170px;
+	
+    margin-bottom: 50px;
   font-size: 16px;
 }
 .subtitle{
